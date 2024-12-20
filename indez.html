@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements</title>
+    <style>
+        *{
+        }
+        p::first-letter{
+            font-size:larger;color:red;
+        }
+        p::after{
+            padding: 5px 15px;
+            content:'read more';color:brown;
+            background-color: aqua;border-radius: 20px;
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Courses</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    
+</body>
+</html>
